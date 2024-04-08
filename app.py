@@ -20,4 +20,4 @@ def hello_spanish():
 
 @app.get('/{name}')
 def hello_name(name: str):
-    return {'message': f'Hello {name}'}
+    return {'message': f'HellO {name}'}
